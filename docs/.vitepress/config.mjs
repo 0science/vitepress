@@ -4,12 +4,14 @@ export default defineConfig({
   ignoreDeadLinks: true,
   title: "赛博空间",
   description: "A VitePress Site",
+  base: '/vitepress/',
   themeConfig: {
     // logo
     logo: '/assets/logo.jpg',
     // 头部导航栏
     nav: [
-      { text: '简介', link: '/Introduce/' }
+      { text: '简介', link: '/Introduce/' },
+      { text: '前端路线', link: '/Frontend/' }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
