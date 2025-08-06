@@ -10,9 +10,16 @@ export default defineConfig({
     logo: '/assets/logo.jpg',
     // 头部导航栏
     nav: [
-      { text: '简介', link: '/Introduce/' },
-      { text: '前端路线', link: '/Frontend/' }
+      { text: '前端', link: '/Frontend/' }
     ],
+    sidebar: {
+      '/Frontend/':[
+        { text: '路线', link: '/Frontend/' },
+        { text: '语义化标签', link: '/Frontend/HTML/' },
+
+      ]
+    },
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ],
