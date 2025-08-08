@@ -4,7 +4,7 @@ export default defineConfig({
   ignoreDeadLinks: true,
   title: "赛博空间",
   description: "A VitePress Site",
-  base: '/vitepress/',
+  base: '/',
   themeConfig: {
     // logo
     logo: '/assets/logo.jpg',
