@@ -11,17 +11,13 @@ export default defineConfig({
     // 头部导航栏
     nav: [
       { text: '前端', link: '/Frontend/' },
-      { text: '算法', link: '/Algorithm/' },
     ],
     sidebar: {
       '/Frontend/':[
         { text: '路线', link: '/Frontend/' },
         { text: '语义化标签', link: '/Frontend/HTML/' },
-      ],
-      '/Algorithm/':[
-        { text: '简介', link: '/Algorithm/' },
-        { text: '两数之和', link: '/Algorithm/LeetCode/two-sum/' },
-      ],
+        { text: '项目', link: '/Frontend/HTML/Project/' }
+      ]
     },
 
     socialLinks: [
