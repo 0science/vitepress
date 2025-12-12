@@ -15,11 +15,12 @@ export default defineConfig({
     sidebar: {
       '/Frontend/':[
         { text: '路线', link: '/Frontend/' },
-        { text: '语义化标签', link: '/Frontend/HTML/' },
-        { text: '项目', link: '/Frontend/HTML/Project/' }
+        { text: '插件', link: '/Frontend/html/plugin' },
+        { text: '面试题', link: '/Frontend/html/interview' },
+        { text: '项目', link: '/Frontend/html/project' },
+        { text: '语义化', link: '/Frontend/html/semanticization' },
       ]
     },
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ],
