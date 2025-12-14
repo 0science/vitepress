@@ -24,3 +24,10 @@ docs/.vitepress/dist/
 dist.zip
 
 docs/.vitepress/cache/
+
+docs/.vitepress/
+docs/.vitepress/cache/deps/_metadata.json
+docs/.vitepress/cache/deps/@theme_index.js
+docs/.vitepress/cache/deps/vitepress___@vue_devtools-api.js
+docs/.vitepress/cache/deps/_metadata.json
+docs/.vitepress/cache/deps/@theme_index.js
