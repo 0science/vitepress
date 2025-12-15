@@ -10,7 +10,7 @@ export default defineConfig({
     logo: '/assets/logo.jpg',
     // 头部导航栏
     nav: [
-      { text: '前端', link: '/Frontend/' },
+      { text: '前端', link: '/Frontend/introduce/line' },
       { text: 'C语言教程', link: '/Frontend/' },
       { text: 'HTML教程', link: '/Frontend/' },
       { text: 'CSS教程', link: '/Frontend/' },
@@ -20,7 +20,9 @@ export default defineConfig({
       {
         text: '前端',
         items:[
-          { text: '路线', link: '/Frontend/' },
+          { text: '目录', link: '/Frontend/' },
+          { text: '路线', link: '/Frontend/introduce/line' },
+          { text: '简历', link: '/Frontend/introduce/resume' },
           { text: '插件', link: '/Frontend/html/plugin' },
           { text: '面试题', link: '/Frontend/html/interview' },
           { text: '语义化', link: '/Frontend/html/semanticization' },
